@@ -1,3 +1,4 @@
+#method for sorting the list
 def selsrt (lst):
     n=len(lst)
     for i in range (0, n):
@@ -6,6 +7,7 @@ def selsrt (lst):
         lst[i]=lst[k]
         lst[k]=temp
     print(lst)
+#helper method which returns the smallest value within the given given fst and end of list
 def small(fst, lst):
     val=lst[fst]
     ind=fst
